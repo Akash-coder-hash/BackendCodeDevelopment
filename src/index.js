@@ -1,21 +1,13 @@
-// import dotenv from "dotenv";
-// import connectDB from "./db/index.js";
-
-// dotenv.config({
-//     path: './env'
-// })
-
-// connectDB()
-
-// index.mjs
+import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 
-// Start the connection
-(async () => {
-  await connectDB();
-})();
+dotenv.config({
+    path: './env'
+})
 
+connectDB()
 
+ 
 
 
 
